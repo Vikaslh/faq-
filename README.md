@@ -28,7 +28,7 @@ Ensure all required packages (like Django, Ninja, etc.) are installed.
 Run the following commands to apply migrations and set up the database:
 
 python manage.py makemigrations
-<img width="1280" alt="Screenshot 2024-11-27 at 12 16 43 AM" src="https://github.com/user-attachments/assets/0f1c87dd-a070-42ef-b00a-460c267bcd61">
+
 python manage.py migrate
 This ensures your database schema matches your Django models.
 
@@ -55,5 +55,5 @@ http://127.0.0.1:8000/admin
 You can test your API using:
 
 Browser: Open http://127.0.0.1:8000/api/docs.
-
+<img width="1280" alt="Screenshot 2024-11-27 at 12 16 43 AM" src="https://github.com/user-attachments/assets/0f1c87dd-a070-42ef-b00a-460c267bcd61">
 
